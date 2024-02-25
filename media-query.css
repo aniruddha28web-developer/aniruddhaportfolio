@@ -1,0 +1,189 @@
+@media (max-width: 999px) {
+  
+    header{
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .image img{
+        padding-bottom: 50px;
+    }
+
+    .info h2{
+         width: 100%;
+    }
+ 
+    .info h1 span {
+        width: 100%;
+    }
+
+
+    /*About me query*/
+
+
+    center h1 {
+        margin: 50px 0px; 
+    }
+    .about-me {
+
+        flex-direction: column-reverse;
+    }
+
+    .about-img img {
+        margin: 12% 15%;
+        height: 60%;
+        width: 60%;
+       
+    }
+
+    .about-info h3{
+        font-size: 19px;
+        margin: 40px 80px;
+    }
+   
+    /*Skill page css */
+
+    .main{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+
+    .skills-set img{
+        flex-wrap: wrap;
+    }
+
+    
+.lang{
+    padding: 0px 8px;
+}
+
+
+    h2{
+        margin: 0px 0px;
+        padding-bottom: 80px;
+      text-align: center;
+      align-items: center;
+     padding-left: 30px;
+    }
+
+    .work-flow h1{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .work-flow h3 ul li{
+        font-size: 21px;
+        color: gray;
+        padding: 12px 10px;
+        text-align: center;
+    }
+    
+
+    /*Project page query */
+
+    .projects{
+        flex-wrap: wrap;
+    }
+
+    /*Contact me page css */
+
+    .contact{
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+}
+
+
+@media (max-width: 692px) {
+  
+    header{
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .image img{
+        padding-bottom: 50px;
+    }
+
+    .info h2{
+         width: 100%;
+    }
+ 
+    .info h1 span {
+        width: 100%;
+    }
+
+
+    /*About me query*/
+
+    .about-me {
+
+        flex-direction: column-reverse;
+    }
+
+    center h1 {
+        color: rgb(0, 140, 255);
+        font-size: 36px;
+        margin: 50px 0px;
+    }
+    
+    .about-img img {
+        margin: 12% 15%;
+        height: 60%;
+        width: 60%;
+       
+    }
+
+    .about-info h3{
+        font-size: 19px;
+        margin: 40px 80px;
+    }
+   
+    /*Skill page css */
+
+    .main{
+        flex-direction: column;
+    }
+
+    .skills-set{
+        flex-wrap: wrap;
+    }
+
+    .skills-set img {
+        height: 30px;
+        width: 35px;
+        align-items: end;
+    }
+
+    h2{
+        margin: 0px 0px;
+        padding-bottom: 80px;
+      text-align: center;
+      align-items: center;
+     padding-left: 30px;
+    }
+
+    .work-flow h1{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+
+    /*Project page query */
+
+    .projects{
+        flex-wrap: wrap;
+    }
+
+    .contact{
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    
+    .icon{
+        height: 80px;
+        width: 80%;
+    }
+
+
+}
